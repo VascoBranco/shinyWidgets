@@ -81,7 +81,7 @@ actionBttn <- function(inputId,
   )
   color <- match.arg(
     arg = color,
-    choices = c("default", "primary", "warning", "danger", "success", "royal")
+    choices = c("default", "primary", "warning", "danger", "success", "royal", "nature")
   )
   size <- match.arg(arg = size, choices = c("xs", "sm", "md", "lg"))
 
